@@ -1,0 +1,43 @@
+html,
+body {
+    margin: 0;
+    border: none;
+    padding: 0;
+    background: #000;
+    font: 18px/1.25em monospace;
+    color: rgb(32, 166, 15);
+}
+
+#faith-container {
+    padding: 20px;
+}
+
+#faith-screen,
+#player-prompt {
+    white-space: pre-wrap;
+}
+#faith-screen {
+    margin-bottom: 1em;
+}
+
+#player-text {
+    display: none;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+}
+#player-text form {
+    flex-grow: 1;
+}
+#player-text input {
+    border: none;
+    width: 100%;
+    background: inherit;
+    color: inherit;
+    font: inherit;
+}
+#player-text input::placeholder {
+    font-size: 18px;
+}
+*:focus {
+    outline: none;
+}
