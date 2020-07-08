@@ -20,15 +20,15 @@ body {
     margin-bottom: 1em;
 }
 
-#player-text {
+#prayer-text {
     display: none;
     flex-wrap: wrap;
     margin-bottom: 3em;
 }
-#player-text form {
+#prayer-text form {
     flex-grow: 1;
 }
-#player-text input {
+#prayer-text input {
     border: none;
     width: 100%;
     background: inherit;

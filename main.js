@@ -1,7 +1,7 @@
 /**
  * Main JavaScript file.
  */
-var hex90 = (function () {
+var ritual = (function () {
     /**
      * Simplistic typing effect.
      *
@@ -26,12 +26,12 @@ var hex90 = (function () {
     }
 
     /**
-     * Shows the player response when the `type()` function is complete.
+     * Shows the prayer response when the `type()` function is complete.
      */
-    function showPlayerText (speed) {
-        document.getElementById('player-text').style.display = 'flex';
+    function showPrayerText (speed) {
+        document.getElementById('prayer-text').style.display = 'flex';
         document.getElementById('flag').style.visibility = 'visible';
-        type(0, speed, 'faith-prompt', 'player-prompt', function () {
+        type(0, speed, 'faith-prompt', 'prayer-prompt', function () {
             return document.getElementById('flag').focus();
         });
     }
@@ -41,15 +41,15 @@ var hex90 = (function () {
      *
      * @param {Number} speed Faith typing speed in milliseconds. Lower is faster.
      */
-    function play (speed) {
+    function start (speed) {
         type(0, speed, 'faith-text', 'faith-screen', function () {
-            showPlayerText(speed);
+            showPrayerText(speed);
         });
     }
 
     return {
-        'play': function (speed) {
-            play(speed);
+        'start': function (speed) {
+            start(speed);
         }
     }
 })();
