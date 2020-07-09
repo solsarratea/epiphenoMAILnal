@@ -1,0 +1,27 @@
+      XX XXXXXXXXXXXXXXXXX
+    X                     X
+  X                        X
+XXXXXXXXXXXXX     +XXXXXXXXXXXX
+   XXXXXXXXXX+---+XXXXXXXXXX
+    XXXXXXXXX|   | XXXXXXX
+  X  +XXXXXXX+   +--XXXXXX
+  X                         X
+  X      X                  X
+  X      XX        X        X
+  X       XX      XX        X
+  XX       XXXXXXXX        XX
+   XXX                    XX
+     XXXXXXXXXXXXXXXXXXXXXX
+
+ +-+ +-+ +-+ +-+ +-+ +-+ +-+
+ |W| |E| |L| |C| |O| |M| |E|
+ +-+ +-+ +-+ +-+ +-+ +-+ +-+
+
+<--------------------------->
+
+<---- [*]epiphenoMAILnal ---->
+
+<---------------------------->
+
+
+Last login: __LAST_LOGIN__

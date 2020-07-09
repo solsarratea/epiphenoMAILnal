@@ -1,14 +1,14 @@
-[   {
+[ {
+    "id": "commands",
+    "flag" : []
+    },
+
+    {
         "id": "0",
-        "flag": [
-            "mail"
-        ],
-        "next": {
-            "mail": "1"
-        },
-        "text": "<--------------------------->\n\n<---- [*]epiphenoMAILnal ---->\n\n                 \nLast login: __LAST_LOGIN__ on tty1\n\nYou have will have lots of mail.",
-        "prompt": "epiphenoMAILnal@HDSA2020: ",
+        "fileName": "0.txt",
+        "text": "",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
         "placeholder": "Enter `ready` to start the ritual",
         "retry_text": "faithshell: __USER_FLAG__: command not found"
-    }
+}
 ]

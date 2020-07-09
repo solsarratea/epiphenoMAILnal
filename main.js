@@ -16,6 +16,7 @@ var ritual = (function () {
      */
     function type (i, t, ie, oe, cb, s) {
         var input = document.getElementById(ie).textContent;
+
         document.getElementById(oe).textContent += input.charAt(i);
         setTimeout(function () {
             var max = parseInt(t * 25);
@@ -42,6 +43,14 @@ var ritual = (function () {
      * @param {Number} speed Faith typing speed in milliseconds. Lower is faster.
      */
     function start (speed) {
+        var faith = document.getElementById('faith-text').textContent;
+        console.log(faith == '');
+        if(faith == '') {
+           setTimeout(function () {
+               start(speed)
+           }, 1000);
+           return;
+        }
         type(0, speed, 'faith-text', 'faith-screen', function () {
             showPrayerText(speed);
         });
