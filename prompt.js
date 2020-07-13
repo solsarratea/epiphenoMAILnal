@@ -17,6 +17,11 @@
      * @param {Event} e
      * @param {Array} challenges List of faith challenge definitions.
      */
+
+    var transition = '\n\n -----------\n\s\s\s\s\s\s-------------------------\n\s\s\s\s-------------------->'
+
+    var sample = '\n\n  Magical systems combine practical exercises for bringing about change with beliefs, attitudes, a conceptual model of the universe. '
+
     function handleSubmit (e, challenges) {
         e.preventDefault();
 
@@ -31,9 +36,22 @@
             return 'commands' == c.id;
         });
 
-        var user_flag = input.value;
+        var user_input = input.value.split(' ');
+        var user_flag = user_input[0];
 
-        if (commands.flag.includes(user_flag)) {
+        if (user_flag == 'caeser'){
+
+            var text = challenges.find(function ( c ) {
+                return user_flag == c.id;
+            }).text;
+
+            var amount = user_input[1];
+            sample =  caesarShift(sample, amount);
+
+            faithText(text + '\n\n With shift: '+ amount + sample + '\n\n', challenge, user_flag);
+
+
+        }else if (commands.flag.includes(user_flag.split(' ')[0])) {
             var text = challenges.find(function ( c ) {
                 return user_flag == c.id;
             }).text;
@@ -54,6 +72,7 @@
         document.getElementById('faith-screen').textContent = '';
         document.getElementById('prayer-prompt').textContent = '';
         document.getElementById('flag').value = '';
+        document.getElementById('flag').placeholder = '';
     }
 
     /**

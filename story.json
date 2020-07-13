@@ -1,6 +1,9 @@
 [ {
     "id": "commands",
-    "flag" : []
+    "flag" : [
+        "magic",
+        "caeser"
+      ]
     },
 
     {
@@ -10,5 +13,22 @@
         "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
         "placeholder": "Enter `ready` to start the ritual",
         "retry_text": "faithshell: __USER_FLAG__: command not found"
-}
+    },
+    {
+        "id": "magic",
+        "fileName": "",
+        "text": "COMMANDS & MEANINGS FOR CREATING MAGIC \n\n caeser : each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. Try it by typing `caeser [fixed number for shift]`",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "",
+        "retry_text": "faithshell: __USER_FLAG__: command not found"
+    },
+    {
+        "id": "caeser",
+        "fileName": "",
+        "text": "CAESER SHIFT \n\n\n The following sample text will be initialized in sacred text: \n\n <-------------------------------------->\n\n  Magical systems combine practical exercises for bringing about change with beliefs, attitudes, a conceptual model of the universe. " ,
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "Type it by typing ` ",
+        "retry_text": "faithshell: __USER_FLAG__: command not founcad"
+    }
+
 ]
