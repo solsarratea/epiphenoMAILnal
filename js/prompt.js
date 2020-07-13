@@ -95,7 +95,7 @@
 
     function faithText (text, challenge, user_flag ) {
         let id = challenge.id,
-            path = challenge.fileName;
+            path = `public/episodes/${challenge.fileName}`;
 
         onSuccess = (text) => {
             var now = new Date();
@@ -129,7 +129,7 @@
 
     }
 
-    fetch('story.json')
+    fetch('public/story.json')
         .then(function (response) {
             return response.json();
         })
@@ -139,7 +139,7 @@
 
     /**
      * Initialize faithplay.
-     *
+     ooddr*
      * @param {Array} challenges List of challenge definitions.
      * @param {string} puzzle ID of the challenge to play.
      */
