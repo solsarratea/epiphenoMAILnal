@@ -1,0 +1,9 @@
+EPISODE 2: The history unwound
+---------------------------------------------------------------
+
+
+
+The birth of email is contested. There are two subjects in this story, a man working for America's war machine and a 14-year-old foregin exchange student. Let's start with the computer scienetist working on the ARPANET, which is the predicesor of The Internet we are on now. In late September or early October in 1971 Ray sent a message between two computers using a program called SNDMSG, his email messaging system was not considered important. Its development was not a directive of his employer, with Tomlinson merely pursuing it "because it seemed like a neat idea".
+Then where does the young boy come in? Shiva Ayyadurai, was interning in New Jersey and was asked to implement a nice wrapper for the new protocol to send messages between computers. There were already systems out that did the same thing, but he implemented his own over three years and possibly was the first to create atachments, finishing hisproduct in 1982, calling it EMAIL. A very impressive feat!
+
+Fast forward today, Ayyadurai claims to be the inventor of email, he sadly doesnt have the best track record, he spreads conspiracy theories and is an anti-vaxxer. Today he is promoting unfounded COVID-19 treatments. He took to court to prove he is the inventor of email but was unsucessful, the Smithstonian removed his name as the possible inventor of email.

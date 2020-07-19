@@ -52,15 +52,19 @@
 
 
         }else if (commands.flag.includes(user_flag.split(' ')[0])) {
-            var text = challenges.find(function ( c ) {
+            challenge  = challenges.find(function ( c ) {
                 return user_flag == c.id;
-            }).text;
+            });
+            var text = challenge.text;
             faithText(text, challenge, user_flag);
+            console.log(challenge);
+
         } else {
             faithText(challenge.retry_text, challenge, user_flag);
         }
 
         redrawFaithScreen();
+         document.getElementById('flag').setAttribute( 'placeholder', challenge.placeholder );
         ritual.start(1);
         return false; // Always return false.
     }
@@ -116,6 +120,7 @@
                 .replace(/__USER_FLAG__/g, user_flag);
 
             document.getElementById('faith-text').textContent = text;
+
         };
 
         console.log(text);

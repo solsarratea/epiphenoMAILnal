@@ -1,0 +1,39 @@
+EPISODE 3: Essense of the first email lingers here today
+---------------------------------------------------------------
+
+Email relies on an age-old-protocol. SMTP is simple and easy to understand, all you need to is use your terminal to type these commands:
+
+telnet computerfaith.com 25
+(mail server says hello)
+HELO computerfaith.com I am excited to connect with you
+(mail server acknowledges)
+MAIL FROM: <everyone@aol.com>
+(server says OK)
+RCPT TO: <soccerguy3823@hotmail.com>
+(server says OK)
+DATA
+(server says go)
+From: everyone ever <everyone@aol.com>
+To: everyone else <everyoneelse@hotmail.com>
+Subject: helo :)
+Date: Wed, 26 Sep 2018 14:21:26 -0400
+
+
+               XX
+              XXX
+             XXX
+            XXX
+            XX                           X
+           XXX                         XXX
+          XXX                        XXX
+         XXX                        XXX
+        XXXXXXX      XXXXX        XXXX
+       XXX    XX    XX  XX       XXX     XXXXX  X
+      XXX    XXX    XXXX       XX X   XXXXXX XXXX
+      XX     X    XXX         XX     XX      XX
+   XXX       X  XXXXXXXXXXXXXX XXXXXXX      XX
+XXXX         XXX                     X   XXXX
+                                     XXXXX
+
+.
+(Server sends email)

@@ -1,0 +1,23 @@
+EPISODE 4: Diagram of email
+---------------------------------------------------------------
+
+   The SMTP design can be pictured as:
+
+                  +----------+                +----------+
+      +------+    |          |                |          |
+      | User |<-->|          |      SMTP      |          |
+      +------+    |  Client- |Commands/Replies| Server-  |
+      +------+    |   SMTP   |<-------------->|    SMTP  |    +------+
+      | File |<-->|          |    and Mail    |          |<-->| File |
+      |System|    |          |                |          |    |System|
+      +------+    +----------+                +----------+    +------+
+                   SMTP client                SMTP server
+from RFC 5321
+
+Look at that standarized, open and interoperable protocol! Woohoo!!
+
+                            WAIT! WHAT?
+                               YES!
+                            EMAIL YES!
+
+It is fundamentally a decentralized system based on SMTP, and if you wish you can can operate an email server on your own and still be connected to all your peers operating with known providers ( which prioritize and decide our interactions with our inbox :P)

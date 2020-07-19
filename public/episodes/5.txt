@@ -1,0 +1,6 @@
+EPISODE 5: Goals of this workshop
+---------------------------------------------------------------
+
+email is the only form of communication that we use daily that doesn't (necessarily need to) rely on a big tech company or the government. Expect these emails to keep on coming after the empire falls!  This is a call to reapproach our relationship with email and observe its functionality in our life. A driving desire in this research is to demystify the protocol, teach the history of email (email has a dark past) and learn about the unexpected functions of pure email, like maintain an open source project.
+
+Learning about how our digital infrastructure and low-level programming doesn't need to be difficult, its only boring because no one has taken the time to make a fun and engaging workshop. This calls for a better digital future because the more we understand the coded systems around us, the more we can re-code the systems that surveil, collect our data. Instead, with an educated mind, tactfully demand big-tech companies stop selling, censoring, experimenting on, training AIs on, and exploiting us online.

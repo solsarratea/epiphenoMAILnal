@@ -2,7 +2,20 @@
     "id": "commands",
     "flag" : [
         "magic",
-        "caeser"
+        "caeser",
+        "ready",
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "thanks"
       ]
     },
 
@@ -11,9 +24,108 @@
         "fileName": "0.txt",
         "text": "",
         "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
-        "placeholder": "Enter `ready` to start the ritual",
+        "placeholder": "Enter `ready` to start the episodes",
         "retry_text": "faithshell: __USER_FLAG__: command not found"
     },
+      {
+        "id": "ready",
+        "fileName": "1.txt",
+        "text": "",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "Enter `2` for next episode `0` for previous",
+        "retry_text": "faithshell: __USER_FLAG__: command not found"
+    },
+        {
+        "id": "1",
+        "fileName": "1.txt",
+        "text": "",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "Enter `2` for next episode `0` for previous",
+        "retry_text": "faithshell: __USER_FLAG__: command not found"
+        },
+      {
+        "id": "2",
+        "fileName": "2.txt",
+        "text": "",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "Enter `3` for next episode `1` for previous",
+        "retry_text": "faithshell: __USER_FLAG__: command not found"
+      },
+      {
+        "id": "3",
+        "fileName": "3.txt",
+        "text": "",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "Enter `4` for next episode `2` for previous",
+        "retry_text": "faithshell: __USER_FLAG__: command not found"
+      },
+      {
+        "id": "4",
+        "fileName": "4.txt",
+        "text": "",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "Enter `5` for next episode `3` for previous",
+        "retry_text": "faithshell: __USER_FLAG__: command not found"
+      },
+      {
+        "id": "5",
+        "fileName": "5.txt",
+        "text": "",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "Enter `6` for next episode `7` for previous",
+        "retry_text": "faithshell: __USER_FLAG__: command not found"
+      },
+      {
+        "id": "6",
+        "fileName": "6.txt",
+        "text": "",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "Enter `7` for next episode `5` for previous",
+        "retry_text": "faithshell: __USER_FLAG__: command not found"
+      },
+      {
+        "id": "7",
+        "fileName": "7.txt",
+        "text": "",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "Enter `8` for next episode `6` for previous",
+        "retry_text": "faithshell: __USER_FLAG__: command not found"
+      },
+   {
+        "id": "8",
+        "fileName": "8.txt",
+        "text": "",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "Enter `9` for next episode `7` for previous",
+        "retry_text": "faithshell: __USER_FLAG__: command not found"
+   },
+   {
+        "id": "9",
+        "fileName": "9.txt",
+        "text": "",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "Enter `10` for next episode `8` for previous",
+        "retry_text": "faithshell: __USER_FLAG__: command not found"
+   },
+   {
+        "id": "10",
+        "fileName": "10.txt",
+        "text": "",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "Enter `9` for previous episode",
+        "retry_text": "faithshell: __USER_FLAG__: command not found"
+   },
+     {
+        "id": "thanks",
+        "fileName": "thanks.txt",
+        "text": "",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "SEE U AROUND",
+        "retry_text": "faithshell: __USER_FLAG__: command not found"
+      },
+
+
+
     {
         "id": "magic",
         "fileName": "",
