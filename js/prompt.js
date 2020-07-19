@@ -47,7 +47,7 @@
 
             var amount = user_input[1];
             sample =  caesarShift(sample, amount);
-
+            redrawFaithScreen();
             faithText(text + '\n\n With shift: '+ amount + sample + '\n\n', challenge, user_flag);
 
 
@@ -56,15 +56,15 @@
                 return user_flag == c.id;
             });
             var text = challenge.text;
+            redrawFaithScreen();
             faithText(text, challenge, user_flag);
-            console.log(challenge);
 
         } else {
+            redrawFaithScreen();
             faithText(challenge.retry_text, challenge, user_flag);
         }
 
-        redrawFaithScreen();
-         document.getElementById('flag').setAttribute( 'placeholder', challenge.placeholder );
+        document.getElementById('flag').setAttribute( 'placeholder', challenge.placeholder );
         ritual.start(1);
         return false; // Always return false.
     }
@@ -100,7 +100,7 @@
     function faithText (text, challenge, user_flag ) {
         let id = challenge.id,
             path = `public/episodes/${challenge.fileName}`;
-        document.getElementById('faith-text').textContent = text;
+
 
         onSuccess = (text) => {
             var now = new Date();
@@ -119,7 +119,7 @@
                 .replace(/__LAST_LOGIN__/g, new Date(last_login))
                 .replace(/__MAIL_DATE__/g, new Date(mail_date))
                 .replace(/__USER_FLAG__/g, user_flag);
-
+            document.getElementById('faith-text').textContent = text;
 
 
         };
