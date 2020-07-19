@@ -100,6 +100,7 @@
     function faithText (text, challenge, user_flag ) {
         let id = challenge.id,
             path = `public/episodes/${challenge.fileName}`;
+        document.getElementById('faith-text').textContent = text;
 
         onSuccess = (text) => {
             var now = new Date();
@@ -119,11 +120,9 @@
                 .replace(/__MAIL_DATE__/g, new Date(mail_date))
                 .replace(/__USER_FLAG__/g, user_flag);
 
-            document.getElementById('faith-text').textContent = text;
+
 
         };
-
-        console.log(text);
 
         if (text == "") {
             getText(path, onSuccess);
