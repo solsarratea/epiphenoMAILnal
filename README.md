@@ -6,7 +6,7 @@
 ![epiphenoMAILnal](/epiphenonoMAILnal-01.jpeg)
 
 
-## Scripts for following along the workshop remotely [here](https://github.com/solsarratea/epiphenoMAILnal)
+## Scripts for following along the workshop remotely [here](https://solsarratea.github.io/epiphenoMAILnal/)
 
 
 ### Magic prompt displayed is a customized version of [HexNinety](https://github.com/HexNinety/HexNinety.github.io)
