@@ -1,5 +1,3 @@
-EPISODE 0 
----------------------------------------------------------------
 
 
       XX XXXXXXXXXXXXXXXXX
@@ -24,4 +22,4 @@ XXXXXXXXXXXXX     +XXXXXXXXXXXX               +-+ +-+ +-+ +-+ +-+ +-+ +-+
 <---------------------------->
 
 
-Last login: __LAST_LOGIN__
+Init login: __LAST_LOGIN__

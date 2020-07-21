@@ -44,7 +44,7 @@ var ritual = (function () {
      */
     function start (speed) {
         var faith = document.getElementById('faith-text').textContent;
-        console.log(faith == '');
+
         if(faith == '') {
            setTimeout(function () {
                start(speed)

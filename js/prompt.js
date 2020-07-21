@@ -159,7 +159,6 @@
         var faith_form = document.getElementById('ritual-form');
         faith_form.addEventListener('submit', function (e) {
 
-            console.log(e);
             handleSubmit(e, challenges);
         });
         faith_form.setAttribute('data', challenge.id);

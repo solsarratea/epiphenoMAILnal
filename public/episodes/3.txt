@@ -1,4 +1,5 @@
-EPISODE 3: Essense of the first email lingers here today
+---------------------------------------------------------------
+-> EPISODE 3: Essense of the first email lingers here today <--
 ---------------------------------------------------------------
 
 Email relies on an age-old-protocol. SMTP is simple and easy to understand, all you need to is use your terminal to type these commands:

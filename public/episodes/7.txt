@@ -1,4 +1,5 @@
-EPISODE 7: The rules
+---------------------------------------------------------------
+--------------------> EPISODE 7: The rules <-------------------
 ---------------------------------------------------------------
 
 ASCII Code is our enchanted artifact to transform our body energy from impulses into data flowing in the conduit internet while SMTP is taking place. So evoking this typed type of magik should have semantic and syntactic rules to enforce the power of writing an ode to email.
@@ -8,6 +9,9 @@ For that you can:
     -draw images: http://asciiflow.com/
     -draw text: http://patorjk.com/software/taag/#p=display&f=Big%20Money-sw&t=Type%20Something%20
     -write about email in the future
-    -code the text, if you have {text|words} in curly brackets the email server will choose one at random!
+    -code the text, special words with be replaced with special meanings!
 
     This is meant to be a fast pace creation of the dogma. This dogma creation issurrealist, it is sought to release the creative potential of the unconscious mind. This will fill up your inbox, this will take put your inbox further into oblivion, we invite you to embrace the absurdism of the flood of useless emails in your inbox. We are victims of our need for everything to be useful, productive, and inventive. What if we were to call to a more slow, took maintainance, and useless. Sometimes maintenance can be more innovative than invention.
+
+You are ready.
+You will receive the first email.

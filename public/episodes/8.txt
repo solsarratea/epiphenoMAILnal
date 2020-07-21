@@ -1,4 +1,5 @@
-EPISODE 8: Rite of passage
+---------------------------------------------------------------
+----------------> EPISODE 8: Rite of passage <-----------------
 ---------------------------------------------------------------
 
   Assuming you've been initialized with email.
@@ -30,6 +31,3 @@ New form of art was born
 In parts, the rituals’ witness box
 In fact, I think, I’ll use firefox.
 
-
-You are ready.
-You will receive the first email.
