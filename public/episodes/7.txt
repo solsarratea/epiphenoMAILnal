@@ -7,6 +7,7 @@ ASCII Code is our enchanted artifact to transform our body energy from impulses 
 For that you can:
 
     -draw images: http://asciiflow.com/
+                  http://ascii.alienmelon.com/
     -draw text: http://patorjk.com/software/taag/#p=display&f=Big%20Money-sw&t=Type%20Something%20
     -write about email in the future
     -code the text, special words with be replaced with special meanings!
