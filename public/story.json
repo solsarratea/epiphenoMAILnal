@@ -59,7 +59,7 @@
         "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
         "placeholder": "Enter `3` for next episode `2` for previous",
         "retry_text": "faithshell: __USER_FLAG__: command not found"
-      },
+      },{
           "id": "2.6",
         "fileName": "26.txt",
         "text": "",
