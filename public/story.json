@@ -7,6 +7,7 @@
         "0",
         "1",
         "2",
+        "2.5",
         "3",
         "4",
         "5",
@@ -49,6 +50,13 @@
         "text": "",
         "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
         "placeholder": "Enter `3` for next episode `1` for previous",
+        "retry_text": "faithshell: __USER_FLAG__: command not found"
+      },
+         "id": "2.5",
+        "fileName": "25.txt",
+        "text": "",
+        "prompt": "±[epiphenoMAILnal@HDSA] (master ?:1 ✗)  → ",
+        "placeholder": "Enter `3` for next episode `2` for previous",
         "retry_text": "faithshell: __USER_FLAG__: command not found"
       },
       {
