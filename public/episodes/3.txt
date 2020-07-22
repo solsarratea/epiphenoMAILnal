@@ -10,7 +10,7 @@ HELO computerfaith.com I am excited to connect with you
 (mail server acknowledges)
 MAIL FROM: <everyone@aol.com>
 (server says OK)
-RCPT TO: <soccerguy3823@hotmail.com>
+RCPT TO: <everyoneelse@hotmail.com>
 (server says OK)
 DATA
 (server says go)
